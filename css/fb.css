@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin:0%
+
+}
+body{
+    
+    background-color: #fff;
+    color: #1c1e21;
+}
+main{
+   
+    height: 70vh;
+    width: 80vw;
+    position: relative;
+
+}
+footer{
+    height: 30vh;
+    background-color:#fffaf0;
+ 
+}
+.max{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    transform: translate(-5%,-5%);
+}
+.facebook{
+    flex:0 0 50%;
+    float: left;
+}
+.form{
+    flex:0 0 40%;
+    float:right;
+    
+}
+.facebook img {
+   
+   max-width: 300px;
+  
+}
+.facebook h2 {
+    font: 26px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 32px;
+    
+ }
+ .form .imp{
+    background-color: white;
+    border: none;
+    box-shadow:0 2px 4px  rgba(0, 0, 0, 0.200), 0 8px 16px rgba(0, 0, 0, 0.200);
+    margin-bottom:30px ;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+}
+.form .imp input, .form .imp .btn{
+    width: 95%;
+    margin: 5px 0;
+    height: 45px;
+    font-size: 16px;
+}
+.form .imp input{
+    border:1px solid #dddfe2 ;
+    outline: none;
+    padding: 0 8px;
+}
+.form .imp input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+.form .imp .btn{
+    background-color: #1877f2;
+    border:none;
+    border-radius: 6px;
+    font-size: 20px;
+    color:#ffffff;
+    font-weight: 700;
+    width: 100%;
+}
+.form .imp .link{
+    padding: 6px;
+    border-bottom: 1px solid #dadee1;
+    
+}
+.form .imp .link a{
+    display: black;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+ 
+    margin: 110px;
+
+}
+.form .imp .link a:hover{
+    text-decoration: underline;
+}
+.form .imp .bb{
+    padding: 10px;
+   
+}
+.form .imp .top{
+    background-color:#42b72a;
+    height: 45px;
+    width: 99%;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff
+   
+}
+.form p{
+    font-size: 16px;
+    margin: 20px;
+   
+}
+.form p a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.form p a:hover{
+    text-decoration: underline;
+}
+
+.list{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.list ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    
+}
+
+.list ul:first-child{
+    border-bottom:  1px solid #dddfe2;
+    outline: none;
+    padding-bottom: 12px;
+    font-weight: 100;
+    
+
+}
+
+
+footer ul li{
+    padding-right: 10px;
+
+}
+footer ul li a{
+    text-decoration: none;
+    color:rgba(10, 7, 7, 0.575);
+
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer ul button{
+    width: 25px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-style:none ;
+}
+footer small{
+    font-size: 11px;
+    text-decoration: none;
+    
+}
